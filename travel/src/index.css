@@ -1,0 +1,97 @@
+:root{
+    color:#2B283A;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 1.5rem;
+}
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+nav{
+    background-color:#f55a5a;
+    color:white;
+    width: 100vw;
+    height: 7vh;
+    margin-bottom: 8vh;
+}
+
+.flexRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexCol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.moment{
+    width: 50vw;
+    min-width: 500px;
+    height: 30vh;
+    padding: 2vh 0;
+    border-bottom: 0.3vh solid #F5F5F5;
+
+    justify-content: space-between;
+}
+.moment:last-child{
+    border: none;
+}
+.moment--img{
+    width: 30%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+}
+.moment--info{
+    width: 65%;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+
+.wrapper{
+    width: 100vw;
+    height: fit-content;
+}
+
+.location{
+    justify-content: flex-start;
+}
+.moment--location > *{
+    margin-right: 2%;
+}
+.city{
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+}
+
+a {
+    color: #918E9B;
+    font-size: smaller;
+}
+
+.moment--description{
+    text-overflow: ellipsis;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb {
+    background: #e4e4e4;
+    border-radius: 20px;
+}
