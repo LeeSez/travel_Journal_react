@@ -63,7 +63,7 @@ nav{
     height: fit-content;
 }
 
-.location{
+.moment--location{
     justify-content: flex-start;
 }
 .moment--location > *{

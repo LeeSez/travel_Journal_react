@@ -5,7 +5,7 @@ export default function Moment(props){
         <div className="flexRow moment">
             <div className="moment--img" style={{backgroundImage: `url(${props.info.img})`}}></div>
             <div className="moment--info">
-                <div className="flexRow location">
+                <div className="flexRow moment--location">
                     <img src="../../public/images/loc.png" />
                     <div className="city">{props.info.location}</div>
                     <a href={props.info.googleUrl}><div className="google">View on Google Maps</div></a>
